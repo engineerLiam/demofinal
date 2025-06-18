@@ -240,7 +240,7 @@
     background: linear-gradient(to right, #4facfe, #00f2fe);
     color: #ffffff;
     border: none;
-    border-radius: 50px;
+    border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -315,22 +315,6 @@
     font-weight: 600;
   }
   
-  .btn {
-    padding: 10px 20px;
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #005fa3;
-  }
-  
   .applics {
     display: flex;
     flex-wrap: wrap;
@@ -383,6 +367,10 @@
     align-items: center;
     gap: 15px;
   }
+
+  .btn_prof {
+    width: 240px;
+  }
   
   .registration_field {
     width: 100%;
@@ -415,21 +403,7 @@
     margin-bottom: 15px;
   }
   
-  .btn {
-    padding: 10px 20px;
-    background-color: #0077cc;
-    color: white;
-    border: none;
-    border-radius: 8px;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  .btn:hover {
-    background-color: #005fa3;
-  }
+
   
   .applic_form {
     display: flex;
